@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linear1"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/option1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/btn_dialog_gen_map_type"/>
+
+    <ImageView
+        android:id="@+id/option2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/btn_dialog_gen_map_type_satellite_pic"/>
+
+    <ImageView
+        android:id="@+id/option3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/btn_dialog_gen_map_type_terrian_pic"/>
+
+</LinearLayout>
